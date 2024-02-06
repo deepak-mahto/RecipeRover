@@ -5,9 +5,9 @@ const cardParentContainer = document.querySelector(".main");
 const cuisineParentContainer = document.querySelector(".cuisine-filter");
 const searchBox = document.querySelector(".input");
 
-const RECIPEURL = "https://recipeapi.prakashsakari.repl.co/api/recipes";
+const RECIPEURL = "https://recipe-api-61562-default-rtdb.firebaseio.com/.json";
 const CUISINEURL =
-  "https://recipeapi.prakashsakari.repl.co/api/recipes/cuisines";
+  "https://cuisines-api-default-rtdb.asia-southeast1.firebasedatabase.app/.json";
 
 let searchValue = "";
 let filteredArrOfRecipes = [];
