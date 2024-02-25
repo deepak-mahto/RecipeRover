@@ -1,6 +1,6 @@
 const cardId = localStorage.getItem("id");
 
-const SINGLERECIPEURL = `https://recipedetails-api-default-rtdb.asia-southeast1.firebasedatabase.app/.json`;
+const SINGLERECIPEURL = `https://recipedetails-api-default-rtdb.asia-southeast1.firebasedatabase.app/${cardId}.json`;
 
 const getData = async (URL) => {
   try {
